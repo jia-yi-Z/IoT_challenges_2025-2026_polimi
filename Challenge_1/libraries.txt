@@ -1,0 +1,5 @@
+Libraries used:
+
+- WiFi.h
+- esp_now.h
+- esp_sleep.h
