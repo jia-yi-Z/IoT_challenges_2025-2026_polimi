@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="ZkbXjP4T9I-0BWAhGUki">
+    <mxGraphModel dx="948" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="T-3i_OmFhH9FatAYbVQn-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="450" width="720" x="60" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T-3i_OmFhH9FatAYbVQn-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#910535, #ededed);gradientColor=none;strokeColor=light-dark(#000000,#EDEDED);" value="" vertex="1">
+          <mxGeometry height="60" width="100" x="460" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="T-3i_OmFhH9FatAYbVQn-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=light-dark(#910535, #512d2b);strokeColor=light-dark(#000000,#D7817E);" value="" vertex="1">
+          <mxGeometry height="60" width="100" x="270" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="T-3i_OmFhH9FatAYbVQn-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="&lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;Cambria Math&quot;&gt;Actuator&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Cambria Math&quot; style=&quot;color: rgb(255, 255, 255);&quot;&gt;(Server)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="80" x="470" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="T-3i_OmFhH9FatAYbVQn-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;fontFamily=Cambria Math;" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(237, 237, 237));&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Sensor&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(237, 237, 237));&quot;&gt;(Client)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="80" x="280" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="T-3i_OmFhH9FatAYbVQn-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="&lt;font face=&quot;Cambria Math&quot; style=&quot;font-size: 12px;&quot;&gt;CON PUT /temperature&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="190" x="320" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="T-3i_OmFhH9FatAYbVQn-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Cambria Math&quot;&gt;PUT ACK 2.04 Changed&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="190" x="320" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="T-3i_OmFhH9FatAYbVQn-24" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;dashed=1;strokeColor=light-dark(#000000,#EDEDED);" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="510" y="360" as="sourcePoint" />
+            <mxPoint x="510" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T-3i_OmFhH9FatAYbVQn-28" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;strokeColor=light-dark(#030303, #ededed);" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="320" y="270" as="sourcePoint" />
+            <mxPoint x="510" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T-3i_OmFhH9FatAYbVQn-29" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;strokeColor=light-dark(#050505, #ededed);" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="510" y="310" as="sourcePoint" />
+            <mxPoint x="320" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T-3i_OmFhH9FatAYbVQn-31" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;dashed=1;strokeColor=light-dark(#000000,#EDEDED);" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="319.5" y="360" as="sourcePoint" />
+            <mxPoint x="319.5" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
